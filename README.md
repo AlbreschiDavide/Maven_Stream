@@ -1,2 +1,2 @@
 # Maven_Stream
-Esempi Stream
+Esercitazione di Java con uso degli Stream e dei Collectors
