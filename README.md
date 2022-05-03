@@ -1,2 +1,2 @@
 # Maven_Stream
-Esercitazione di Java con uso degli Stream e dei Collectors
+Esercitazione di Java del laboratorio di ISA
