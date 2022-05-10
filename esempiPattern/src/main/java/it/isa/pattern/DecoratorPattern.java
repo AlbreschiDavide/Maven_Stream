@@ -40,7 +40,7 @@ class BoostedEngineDecorator extends EngineDecorator{
         boostIt();
     }
 }
-//cient
+//client
 public class DecoratorPattern{
     public static void main(String[] args) {
         System.out.println("Decoration Pattern");
