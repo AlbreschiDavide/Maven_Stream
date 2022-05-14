@@ -1,5 +1,8 @@
-package Maven.esempiTest.src.main.java.it.isa.tests;
+package it.isa.tests;
 
-public class ServerInterface {
-    public
+public interface ServerInterface {
+    public float setUp();
+    public int getStatus();
+    public String getUrl(String serviceName, String state);  
 }
+ 
