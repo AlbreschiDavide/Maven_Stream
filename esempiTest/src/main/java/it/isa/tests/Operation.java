@@ -33,7 +33,7 @@ public class Operation {
     public int getCount(){
         return operationsCounter;
     }
-    
+
     public boolean positivi(int a, int b){
         if (a > 0 && b > 0){
             return true;
