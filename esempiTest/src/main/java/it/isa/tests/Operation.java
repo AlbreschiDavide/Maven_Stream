@@ -25,9 +25,12 @@ public class Operation {
          return si.getUrl(serviceName, state);
     }
     
-    public float sum(float a,float b){
+    public int sumInt(int a,int b){
         operationsCounter++;
         return a+b;
+    }
+    public float divisione(int a, int b){
+        return (float) a/b;
     }
 
     public int getCount(){
