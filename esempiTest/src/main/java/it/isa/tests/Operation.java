@@ -26,6 +26,16 @@ public class Operation {
     }
     
     public int sumInt(int a,int b){
+        
+        //possibile soluzione 
+        /*long res = (long) a+b;
+
+        if (res > java.lang.Integer.MAX_VALUE){
+            //gestione dell'overflow
+        }
+        operationsCounter++;
+        return (int) a + b;
+        */
         operationsCounter++;
         return a+b;
     }

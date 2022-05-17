@@ -52,15 +52,17 @@ public class OperationTest {
 
     @Property
     public void alwaysHoldSum(int a,int b){
+        //fallisce
         Operation op = new Operation();
         int result = op.sumInt(a,b);
-        if(a < 0 && b > 0){
+        if(a > 0 && b > 0){
             assertTrue(result >= a);
         }   
     }
 
     @Property
     public void alwaysHoldDivisione(int a,int b){
+        //fallisce
         Operation op = new Operation();
         float result = op.divisione(a,b);
         if (a >= 0 && b >= 0 && a > b){
